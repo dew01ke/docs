@@ -16,7 +16,7 @@
 1. Click **Open Connection**.
 1. Select the **Amazon S3** connection type.
 1. Specify the connection parameters:
-   * **Server**: `{{ s3-storage-host }}`.
+   * **Server**: `{bucket}.{{ s3-storage-host }}`.
    * **Port**: `443`.
    * **Access key ID**: Previously obtained ID of the static key.
    * **Secret access key**: Previously obtained secret key.
